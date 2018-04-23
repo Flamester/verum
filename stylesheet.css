@@ -1,6 +1,8 @@
 body {
 	margin: 0px;
-	padding: 0px; 
+	padding: 0px;
+	background-color: plum;
+	background-image: url("BG.jpg");
 }
 
 h1 {
