@@ -11,7 +11,7 @@
 	<scale>100</scale>
 	<back_color>ffffff</back_color>
 	<title></title>
-	<used_numbers>1,1,1,1,1,4,1,1,4,12</used_numbers>
+	<used_numbers>1,1,1,1,1,5,1,1,5,12</used_numbers>
 	<grid>
 		<enabled>false</enabled>
 		<spacing>60.96</spacing>
@@ -171,7 +171,7 @@
 		<title>Marker</title>
 		<x>-1267</x>
 		<y>759</y>
-		<z>1</z>
+		<z>2</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -211,7 +211,7 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>430:-1317:709:-1217:809:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+		<temp>429:-1317:709:-1217:809:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
 	</object>
 	<object>
 		<index>2</index>
@@ -221,7 +221,7 @@
 		<title>Marker</title>
 		<x>528</x>
 		<y>118</y>
-		<z>2</z>
+		<z>3</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -261,7 +261,7 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>431:478:68:578:168:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+		<temp>430:478:68:578:168:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
 	</object>
 	<object>
 		<index>3</index>
@@ -271,7 +271,7 @@
 		<title>Marker</title>
 		<x>-64</x>
 		<y>-652</y>
-		<z>3</z>
+		<z>4</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -311,7 +311,7 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>432:-114:-702:-14:-602:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+		<temp>431:-114:-702:-14:-602:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
 	</object>
 	<object>
 		<index>4</index>
@@ -321,7 +321,7 @@
 		<title>Marker</title>
 		<x>342</x>
 		<y>36</y>
-		<z>4</z>
+		<z>5</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -361,7 +361,7 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>433:292:-14:392:86:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+		<temp>432:292:-14:392:86:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
 	</object>
 	<object>
 		<index>5</index>
@@ -371,7 +371,7 @@
 		<title>Marker</title>
 		<x>1508</x>
 		<y>246</y>
-		<z>5</z>
+		<z>6</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -411,7 +411,7 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>434:1458:196:1558:296:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+		<temp>433:1458:196:1558:296:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
 	</object>
 	<object>
 		<index>6</index>
@@ -421,7 +421,7 @@
 		<title>Marker</title>
 		<x>-986</x>
 		<y>-24</y>
-		<z>6</z>
+		<z>7</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -461,7 +461,7 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>435:-1036:-74:-936:26:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+		<temp>434:-1036:-74:-936:26:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
 	</object>
 	<object>
 		<index>7</index>
@@ -471,7 +471,7 @@
 		<title>Marker</title>
 		<x>1132</x>
 		<y>-110</y>
-		<z>7</z>
+		<z>8</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -511,7 +511,7 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>436:1082:-160:1182:-60:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+		<temp>435:1082:-160:1182:-60:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
 	</object>
 	<object>
 		<index>8</index>
@@ -521,7 +521,7 @@
 		<title>Marker</title>
 		<x>-302</x>
 		<y>178</y>
-		<z>8</z>
+		<z>9</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -561,7 +561,7 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>437:-352:128:-252:228:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+		<temp>436:-352:128:-252:228:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
 	</object>
 	<object>
 		<index>9</index>
@@ -571,7 +571,7 @@
 		<title>Marker</title>
 		<x>720</x>
 		<y>268</y>
-		<z>9</z>
+		<z>10</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -611,7 +611,7 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>438:670:218:770:318:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+		<temp>437:670:218:770:318:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
 	</object>
 	<object>
 		<index>10</index>
@@ -621,7 +621,7 @@
 		<title>Marker</title>
 		<x>-478</x>
 		<y>894</y>
-		<z>10</z>
+		<z>11</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -661,7 +661,7 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>440:-528:844:-428:944:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+		<temp>438:-528:844:-428:944:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
 	</object>
 	<object>
 		<index>11</index>
@@ -671,7 +671,7 @@
 		<title>Marker</title>
 		<x>-626</x>
 		<y>-796</y>
-		<z>11</z>
+		<z>12</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>true</flip_horizontal>
@@ -711,7 +711,7 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>441:-676:-846:-576:-746:83,0,0:-1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+		<temp>439:-676:-846:-576:-746:83,0,0:-1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
 	</object>
 	<image>
 		<index>0</index>
@@ -749,7 +749,7 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>439:-1920:-1080.5:1920:1079.5</temp>
+		<temp>440:-1920:-1080.5:1920:1079.5</temp>
 	</image>
 	<image>
 		<index>1</index>
@@ -787,7 +787,45 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>442:351:333.5:401:383.5</temp>
+		<temp>441:351:333.5:401:383.5</temp>
+	</image>
+	<image>
+		<index>2</index>
+		<name>image4</name>
+		<file_id>4</file_id>
+		<background>false</background>
+		<x>794</x>
+		<y>-151.5</y>
+		<z>1</z>
+		<width>500</width>
+		<height>375</height>
+		<flip_horizontal>false</flip_horizontal>
+		<flip_vertical>false</flip_vertical>
+		<rotation>0</rotation>
+		<window_tab>2</window_tab>
+		<mouse_enabled>true</mouse_enabled>
+		<over_event_type>6</over_event_type>
+		<tooltip>Khao</tooltip>
+		<over_info_text></over_info_text>
+		<over_info_image_id>-1</over_info_image_id>
+		<over_pop_up_id>-1</over_pop_up_id>
+		<over_html_popup></over_html_popup>
+		<over_html_popup_position>1</over_html_popup_position>
+		<over_html_popup_modal>false</over_html_popup_modal>
+		<event_type>-1</event_type>
+		<info_text></info_text>
+		<info_image_id>-1</info_image_id>
+		<pop_up_id>-1</pop_up_id>
+		<link></link>
+		<window></window>
+		<java_script></java_script>
+		<html_popup></html_popup>
+		<html_popup_position>1</html_popup_position>
+		<html_popup_modal>false</html_popup_modal>
+		<pan_marker></pan_marker>
+		<pan_scale>-1</pan_scale>
+		<pan_speed>80</pan_speed>
+		<temp>442:544:-339:1044:36</temp>
 	</image>
 	<file>
 		<id>1</id>
@@ -818,5 +856,15 @@
 		<y>0</y>
 		<width>551</width>
 		<height>850</height>
+	</file>
+	<file>
+		<id>4</id>
+		<name>Khao.png</name>
+		<embed>true</embed>
+		<export>true</export>
+		<x>0</x>
+		<y>0</y>
+		<width>1032</width>
+		<height>774</height>
 	</file>
 </plan>
