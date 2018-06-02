@@ -5,13 +5,13 @@
 	<units>8</units>
 	<precision>3</precision>
 	<x>-240</x>
-	<y>-155</y>
+	<y>155</y>
 	<width>3840</width>
 	<height>2160</height>
 	<scale>100</scale>
 	<back_color>ffffff</back_color>
 	<title></title>
-	<used_numbers>1,1,1,1,1,2,1,1,3,11</used_numbers>
+	<used_numbers>1,1,1,1,1,2,1,1,3,12</used_numbers>
 	<grid>
 		<enabled>false</enabled>
 		<spacing>60.96</spacing>
@@ -663,12 +663,62 @@
 		<pan_speed>80</pan_speed>
 		<temp>440:-528:844:-428:944:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
 	</object>
+	<object>
+		<index>11</index>
+		<name>marker11</name>
+		<file_id>30103</file_id>
+		<file>30103.swf</file>
+		<title>Marker</title>
+		<x>-626</x>
+		<y>-796</y>
+		<z>10</z>
+		<width>100</width>
+		<height>100</height>
+		<flip_horizontal>true</flip_horizontal>
+		<flip_vertical>false</flip_vertical>
+		<rotation>0</rotation>
+		<swf_parameters>3.2;m:0*-1*1;50*50;999;0</swf_parameters>
+		<snap_edge>-1</snap_edge>
+		<distance_from_floor>999</distance_from_floor>
+		<sample>-1</sample>
+		<style>0</style>
+		<colors>ffd700,ffffff,ffd700</colors>
+		<symbol_color>000000</symbol_color>
+		<optional>true</optional>
+		<snap_id>-1</snap_id>
+		<snap_position>0</snap_position>
+		<snap_offset>0</snap_offset>
+		<window_tab>4</window_tab>
+		<mouse_enabled>true</mouse_enabled>
+		<over_event_type>6</over_event_type>
+		<tooltip>The Collector</tooltip>
+		<over_info_text></over_info_text>
+		<over_info_image_id>-1</over_info_image_id>
+		<over_pop_up_id>-1</over_pop_up_id>
+		<over_html_popup></over_html_popup>
+		<over_html_popup_position>1</over_html_popup_position>
+		<over_html_popup_modal>false</over_html_popup_modal>
+		<event_type>-1</event_type>
+		<info_text></info_text>
+		<info_image_id>-1</info_image_id>
+		<pop_up_id>-1</pop_up_id>
+		<link></link>
+		<window></window>
+		<java_script></java_script>
+		<html_popup></html_popup>
+		<html_popup_position>1</html_popup_position>
+		<html_popup_modal>false</html_popup_modal>
+		<pan_marker></pan_marker>
+		<pan_scale>-1</pan_scale>
+		<pan_speed>80</pan_speed>
+		<temp>441:-676:-846:-576:-746:83,0,0:-1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+	</object>
 	<image>
 		<index>0</index>
 		<name>image2</name>
 		<file_id>1</file_id>
 		<background>true</background>
-		<x>-2</x>
+		<x>0</x>
 		<y>-0.5</y>
 		<z>0</z>
 		<width>3840</width>
@@ -699,7 +749,7 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>439:-1922:-1080.5:1918:1079.5</temp>
+		<temp>439:-1920:-1080.5:1920:1079.5</temp>
 	</image>
 	<file>
 		<id>1</id>
