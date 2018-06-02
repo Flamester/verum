@@ -11,7 +11,7 @@
 	<scale>100</scale>
 	<back_color>ffffff</back_color>
 	<title></title>
-	<used_numbers>1,1,1,1,1,5,1,1,5,12</used_numbers>
+	<used_numbers>1,1,1,1,1,5,1,1,5,14</used_numbers>
 	<grid>
 		<enabled>false</enabled>
 		<spacing>60.96</spacing>
@@ -712,6 +712,106 @@
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
 		<temp>439:-676:-846:-576:-746:83,0,0:-1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+	</object>
+	<object>
+		<index>12</index>
+		<name>marker12</name>
+		<file_id>30103</file_id>
+		<file>30103.swf</file>
+		<title>Marker</title>
+		<x>744</x>
+		<y>-150</y>
+		<z>13</z>
+		<width>100</width>
+		<height>100</height>
+		<flip_horizontal>false</flip_horizontal>
+		<flip_vertical>false</flip_vertical>
+		<rotation>0</rotation>
+		<swf_parameters>3.2;m:0*-1*1;50*50;999;0</swf_parameters>
+		<snap_edge>-1</snap_edge>
+		<distance_from_floor>999</distance_from_floor>
+		<sample>-1</sample>
+		<style>0</style>
+		<colors>1c388c,330066,009900</colors>
+		<symbol_color>000000</symbol_color>
+		<optional>false</optional>
+		<snap_id>-1</snap_id>
+		<snap_position>0</snap_position>
+		<snap_offset>0</snap_offset>
+		<window_tab>5</window_tab>
+		<mouse_enabled>true</mouse_enabled>
+		<over_event_type>6</over_event_type>
+		<tooltip>The Grasping Hand</tooltip>
+		<over_info_text></over_info_text>
+		<over_info_image_id>-1</over_info_image_id>
+		<over_pop_up_id>-1</over_pop_up_id>
+		<over_html_popup></over_html_popup>
+		<over_html_popup_position>1</over_html_popup_position>
+		<over_html_popup_modal>false</over_html_popup_modal>
+		<event_type>-1</event_type>
+		<info_text></info_text>
+		<info_image_id>-1</info_image_id>
+		<pop_up_id>-1</pop_up_id>
+		<link></link>
+		<window></window>
+		<java_script></java_script>
+		<html_popup></html_popup>
+		<html_popup_position>1</html_popup_position>
+		<html_popup_modal>false</html_popup_modal>
+		<pan_marker></pan_marker>
+		<pan_scale>-1</pan_scale>
+		<pan_speed>80</pan_speed>
+		<temp>443:694:-200:794:-100:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+	</object>
+	<object>
+		<index>13</index>
+		<name>marker13</name>
+		<file_id>30103</file_id>
+		<file>30103.swf</file>
+		<title>Marker</title>
+		<x>878</x>
+		<y>-144</y>
+		<z>14</z>
+		<width>100</width>
+		<height>100</height>
+		<flip_horizontal>false</flip_horizontal>
+		<flip_vertical>false</flip_vertical>
+		<rotation>0</rotation>
+		<swf_parameters>3.2;m:0*-1*1;50*50;999;0</swf_parameters>
+		<snap_edge>-1</snap_edge>
+		<distance_from_floor>999</distance_from_floor>
+		<sample>-1</sample>
+		<style>0</style>
+		<colors>1c388c,cc6633,ffff66</colors>
+		<symbol_color>000000</symbol_color>
+		<optional>false</optional>
+		<snap_id>-1</snap_id>
+		<snap_position>0</snap_position>
+		<snap_offset>0</snap_offset>
+		<window_tab>5</window_tab>
+		<mouse_enabled>true</mouse_enabled>
+		<over_event_type>6</over_event_type>
+		<tooltip>The Great Bazaar</tooltip>
+		<over_info_text></over_info_text>
+		<over_info_image_id>-1</over_info_image_id>
+		<over_pop_up_id>-1</over_pop_up_id>
+		<over_html_popup></over_html_popup>
+		<over_html_popup_position>1</over_html_popup_position>
+		<over_html_popup_modal>false</over_html_popup_modal>
+		<event_type>-1</event_type>
+		<info_text></info_text>
+		<info_image_id>-1</info_image_id>
+		<pop_up_id>-1</pop_up_id>
+		<link></link>
+		<window></window>
+		<java_script></java_script>
+		<html_popup></html_popup>
+		<html_popup_position>1</html_popup_position>
+		<html_popup_modal>false</html_popup_modal>
+		<pan_marker></pan_marker>
+		<pan_scale>-1</pan_scale>
+		<pan_speed>80</pan_speed>
+		<temp>444:828:-194:928:-94:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
 	</object>
 	<image>
 		<index>0</index>
