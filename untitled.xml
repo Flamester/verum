@@ -269,8 +269,8 @@
 		<file_id>30103</file_id>
 		<file>30103.swf</file>
 		<title>Marker</title>
-		<x>-588</x>
-		<y>-540</y>
+		<x>-64</x>
+		<y>-652</y>
 		<z>3</z>
 		<width>100</width>
 		<height>100</height>
@@ -311,7 +311,7 @@
 		<pan_marker></pan_marker>
 		<pan_scale>-1</pan_scale>
 		<pan_speed>80</pan_speed>
-		<temp>432:-638:-590:-538:-490:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
+		<temp>432:-114:-702:-14:-602:83,0,0:1.2048192771084338:1.2048192771084338:0:2::50:0:0:0:50:false</temp>
 	</object>
 	<image>
 		<index>0</index>
