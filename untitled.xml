@@ -11,7 +11,7 @@
 	<scale>100</scale>
 	<back_color>ffffff</back_color>
 	<title></title>
-	<used_numbers>1,1,1,1,1,2,1,1,3,12</used_numbers>
+	<used_numbers>1,1,1,1,1,4,1,1,4,12</used_numbers>
 	<grid>
 		<enabled>false</enabled>
 		<spacing>60.96</spacing>
@@ -171,7 +171,7 @@
 		<title>Marker</title>
 		<x>-1267</x>
 		<y>759</y>
-		<z>0</z>
+		<z>1</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -221,7 +221,7 @@
 		<title>Marker</title>
 		<x>528</x>
 		<y>118</y>
-		<z>1</z>
+		<z>2</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -271,7 +271,7 @@
 		<title>Marker</title>
 		<x>-64</x>
 		<y>-652</y>
-		<z>2</z>
+		<z>3</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -321,7 +321,7 @@
 		<title>Marker</title>
 		<x>342</x>
 		<y>36</y>
-		<z>3</z>
+		<z>4</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -371,7 +371,7 @@
 		<title>Marker</title>
 		<x>1508</x>
 		<y>246</y>
-		<z>4</z>
+		<z>5</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -421,7 +421,7 @@
 		<title>Marker</title>
 		<x>-986</x>
 		<y>-24</y>
-		<z>5</z>
+		<z>6</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -471,7 +471,7 @@
 		<title>Marker</title>
 		<x>1132</x>
 		<y>-110</y>
-		<z>6</z>
+		<z>7</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -521,7 +521,7 @@
 		<title>Marker</title>
 		<x>-302</x>
 		<y>178</y>
-		<z>7</z>
+		<z>8</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -571,7 +571,7 @@
 		<title>Marker</title>
 		<x>720</x>
 		<y>268</y>
-		<z>8</z>
+		<z>9</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -621,7 +621,7 @@
 		<title>Marker</title>
 		<x>-478</x>
 		<y>894</y>
-		<z>9</z>
+		<z>10</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>false</flip_horizontal>
@@ -671,7 +671,7 @@
 		<title>Marker</title>
 		<x>-626</x>
 		<y>-796</y>
-		<z>10</z>
+		<z>11</z>
 		<width>100</width>
 		<height>100</height>
 		<flip_horizontal>true</flip_horizontal>
@@ -751,6 +751,44 @@
 		<pan_speed>80</pan_speed>
 		<temp>439:-1920:-1080.5:1920:1079.5</temp>
 	</image>
+	<image>
+		<index>1</index>
+		<name>image3</name>
+		<file_id>2</file_id>
+		<background>false</background>
+		<x>376</x>
+		<y>358.5</y>
+		<z>0</z>
+		<width>50</width>
+		<height>50</height>
+		<flip_horizontal>false</flip_horizontal>
+		<flip_vertical>false</flip_vertical>
+		<rotation>0</rotation>
+		<window_tab>2</window_tab>
+		<mouse_enabled>true</mouse_enabled>
+		<over_event_type>6</over_event_type>
+		<tooltip>Darius Dradis</tooltip>
+		<over_info_text></over_info_text>
+		<over_info_image_id>-1</over_info_image_id>
+		<over_pop_up_id>-1</over_pop_up_id>
+		<over_html_popup></over_html_popup>
+		<over_html_popup_position>1</over_html_popup_position>
+		<over_html_popup_modal>false</over_html_popup_modal>
+		<event_type>3</event_type>
+		<info_text></info_text>
+		<info_image_id>3</info_image_id>
+		<pop_up_id>-1</pop_up_id>
+		<link></link>
+		<window></window>
+		<java_script></java_script>
+		<html_popup></html_popup>
+		<html_popup_position>1</html_popup_position>
+		<html_popup_modal>false</html_popup_modal>
+		<pan_marker></pan_marker>
+		<pan_scale>-1</pan_scale>
+		<pan_speed>80</pan_speed>
+		<temp>442:351:333.5:401:383.5</temp>
+	</image>
 	<file>
 		<id>1</id>
 		<name>Fancy_map.png</name>
@@ -760,5 +798,25 @@
 		<y>0</y>
 		<width>1920</width>
 		<height>1080</height>
+	</file>
+	<file>
+		<id>2</id>
+		<name>DariusT.png</name>
+		<embed>true</embed>
+		<export>true</export>
+		<x>0</x>
+		<y>0</y>
+		<width>354</width>
+		<height>354</height>
+	</file>
+	<file>
+		<id>3</id>
+		<name>DariusP.jpeg</name>
+		<embed>true</embed>
+		<export>true</export>
+		<x>0</x>
+		<y>0</y>
+		<width>551</width>
+		<height>850</height>
 	</file>
 </plan>
