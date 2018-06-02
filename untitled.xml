@@ -188,7 +188,7 @@
 		<snap_id>-1</snap_id>
 		<snap_position>0</snap_position>
 		<snap_offset>0</snap_offset>
-		<window_tab>1</window_tab>
+		<window_tab>5</window_tab>
 		<mouse_enabled>true</mouse_enabled>
 		<over_event_type>6</over_event_type>
 		<tooltip>The Mages Guild</tooltip>
@@ -199,7 +199,7 @@
 		<over_html_popup_position>1</over_html_popup_position>
 		<over_html_popup_modal>false</over_html_popup_modal>
 		<event_type>0</event_type>
-		<info_text>he once proud Mages Guild remains but a shell of its former self. Nearly destroyed during the Reckoning, it has survived due to the heroic efforts of the Archmage Los, who has seen the guild through the rapid shifts in power. At one time the Mages Guild ruled over much of magic; controlling magical travel, magic item creation, and guarding the world against the terrible secrets the arcane hides. However, after being shattered by war and rebellion, the Mages Guild can barely maintain power in Majital, let alone the world.  However, the future of the Mages Guild is brighter due to the resurgence of new magic from distant lands. The hunger for knowledge rekindled and unbound by the bygone bureaucracy, Los hopes to lead the guild into more prosperous times. </info_text>
+		<info_text>NERDS</info_text>
 		<info_image_id>-1</info_image_id>
 		<pop_up_id>-1</pop_up_id>
 		<link></link>
@@ -249,7 +249,7 @@
 		<over_html_popup_position>1</over_html_popup_position>
 		<over_html_popup_modal>false</over_html_popup_modal>
 		<event_type>0</event_type>
-		<info_text>Dolten is a dark place with many dangers, but there are far greater dangers than those in the dark forest. They lurk just out of touch of the mortal realm, patrons of great power and seductive words. The witches of Dolten formed a pact with Baba Yaga, founding the Great Coven to act as a salve against the darkness and instead turn it into Dolten&apos;s gain. The witches of Dolten have since then sought out those whose souls burn brightly enough to handle the dark tasks of unseen lords. You have joined the Coven, not because you wanted to, but because you were chosen. The why is unclear, but what you must do is not. You will serve the witches in whatever scheme they may need doing, for each step you make is a controlled one – one that keeps the unknown at bay.</info_text>
+		<info_text>Dolten is a dark place with many dangers, but there are far greater dangers than those in the dark forest.They lurk just out of touch of the mortal realm, patrons of great power and seductive words.The witches of Dolten formed a pact with Baba Yaga, founding the Great Coven to act as a salve against the darkness and instead turn it into Dolten&apos;s gain.The witches of Dolten have since then sought out those whose souls burn brightly enough to handle the dark tasks of unseen lords.You have joined the Coven, not because you wanted to, but because you were chosen.The why is unclear, but what you must do is not.You will serve the witches in whatever scheme they may need doing, for each step you make is a controlled one – one that keeps the unknown at bay.</info_text>
 		<info_image_id>-1</info_image_id>
 		<pop_up_id>-1</pop_up_id>
 		<link></link>
@@ -299,7 +299,7 @@
 		<over_html_popup_position>1</over_html_popup_position>
 		<over_html_popup_modal>false</over_html_popup_modal>
 		<event_type>0</event_type>
-		<info_text>The great wall that separates the Badlands and Orde is a massive structure built of quarried stone and enchanted ceramic, and has been heavily anointed by the white pantheon. This bastion of hope against the darkness of the badlands is manned by a hardened group of watchmen. As great as a threat the Badlands may be and as dedicated the watchmen on the wall may be, sometimes evil slips through. It is at this time seekers are dispatched to bring this evil to justice. You are such a seeker. You have dedicated yourself to the wall and now you seek to defend the people of Orde, away from home, following evil to wherever it may hide.</info_text>
+		<info_text>The great wall that separates the Badlands and Orde is a massive structure built of quarried stone and enchanted ceramic, and has been heavily anointed by the white pantheon. This bastion of hope against the darkness of the badlands is manned by a hardened group of watchmen. As great as a threat the Badlands may be and as dedicated the watchmen on the wall may be, sometimes evil slips through. It is at this time seekers are dispatched to bring this evil to justice. You are such a seeker. You have dedicated yourself to the wall and now you seek to defend the people of Orde, away from home, following evil to wherever it may hide.</info_text>
 		<info_image_id>-1</info_image_id>
 		<pop_up_id>-1</pop_up_id>
 		<link></link>
