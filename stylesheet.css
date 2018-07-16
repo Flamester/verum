@@ -1,13 +1,54 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color: Bisque;
+	background-color: #FFE4C4;
 	background-image: url("BG.jpg");
 }
 
 h1 {
-    color: navy;
 	text-align:center;
     margin-top: 10px;
     margin-bottom: 0px;
+}
+
+h2 {
+	text-align:center;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFE4C4;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FFE4C4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #E5CDB0;
+}
+
+.active {
+    background-color: #774177;
 }

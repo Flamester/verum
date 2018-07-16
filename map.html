@@ -5,23 +5,16 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<title>The World of Verum</title>
+	<script type="text/javascript" src="viewer.js"></script>
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 </head>
-<body>
+<body onload="viewer.load('viewerDiv', 'untitled.xml', 'untitled.offline.xml.js', 'untitled.js', {x:0, y:0, zoom:100, controls:'none'})"></body>
 <div class="header">
-	<h1><img src="Logo.png" alt="The world of Verum"></h1>
-</div>
+ <h1><img src="Logo.png" alt="The world of Verum"></h1>
+ </div>
 
-<ul>
-	<li><a class="active" href="#home">Home</a></li>
-	<li><a href="#news">Events</a></li>
-	<li><a href="#map">Map</li>
-	<li style="Float:right"><a href="#about">About</li>		
-  </ul>
-  <h3>Hello and welcome to the website for the Living world of Verum!</h3>
-  <p>This is a land of stark contracts between dark and decadent evils, brilliant heroics, and untimly sacrifices.</p>
-
+<div id="viewerDiv" style="width:75%; height:750px; border:none; padding:0; margin: auto;">&nbsp;</div>
 </body>
 </html>
