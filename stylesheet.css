@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color: #FFE4C4;
+	background-color: #ffd0a5;
 	background-image: url("BG.jpg");
 }
 
@@ -28,7 +28,7 @@ ul {
 	font-weight: bold;
     padding: 0;
     overflow: hidden;
-    background-color: #FFE4C4;
+    background-color: #ffd0a5;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -47,7 +47,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #E5CDB0;
+    background-color: #e1a87d;
 }
 
 .active {
