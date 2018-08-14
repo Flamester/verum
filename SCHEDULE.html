@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<title>The World of Verum</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <style>
 .grid-container {
   display: grid;
@@ -32,6 +39,17 @@ input[type=checkbox]
 <script src="jquery-3.3.1.min.js"></script>
 </head>
 <body onload="TIME()">
+<div class="header">
+	<h1><img src="Logo.png" alt="The world of Verum"></h1>
+</div>
+
+<ul>
+	<li><a href="#home">Home</a></li>
+	<li><a href="#news">Events</a></li>
+	<li><a href="map.html">Map</a></li>
+	<li><a class="active" href="SCHEDULE.html">Schedule</a></li>
+	<li style="Float:right"><a href="#about">About</a></li>		
+</ul>
 
 <h1 style="text-align: center;">Character Schedule:</h1>
 <div style="text-align: center;" id="div1">x</div>
@@ -64,10 +82,11 @@ input[type=checkbox]
 <div class="grid-item">10PM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday23" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday23" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday23" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday23" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday23" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday23" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday23" value="1"></div> 
 <div class="grid-item">11PM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday24" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday24" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday24" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday24" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday24" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday24" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday24" value="1"></div> 
 </div>
-
-
+<br>
+<div style="text-align: center;">
   <input type="button" value="Calculate" id="SchedBTN">
-  <p id="CalcFin">Copyafterclicking</p>
+  </div>
+  <p style="text-align: center;" id="CalcFin">Copyafterclicking</p>
   
 </form>
 
