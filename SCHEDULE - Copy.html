@@ -4,9 +4,11 @@
 <style>
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
   background-color: #2196F3;
-  padding: 2px;
+  padding: 5px;
+  margin: auto;
+  width: 400px;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
@@ -15,11 +17,24 @@
   font-size: 20px;
   text-align: center;
 }
-</style>
-</head>
-<body>
 
-<h1>Character Schedlue:</h1>
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2.5); /* IE */
+  -moz-transform: scale(2.5); /* FF */
+  -webkit-transform: scale(2.5); /* Safari and Chrome */
+  -o-transform: scale(2.5); /* Opera */
+  padding: 0px;
+}
+
+</style>
+<script src="jquery-3.3.1.min.js"></script>
+</head>
+<body onload="TIME()">
+
+<h1 style="text-align: center;">Character Schedule:</h1>
+<div style="text-align: center;" id="div1">x</div>
 
 <form action="/action_page.php">
 <div class="grid-container">
@@ -97,7 +112,25 @@ for (i = 0; i < 168; i++) {
 }
 document.getElementById("CalcFin").innerHTML = FinalText;
 });
+function TIME(){
+var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"
+];
 
+    var d = new Date();
+    //set the offset
+    var utcOffset = -6;
+    //get utc
+    var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+    //create new date adjusting by the utcOffset to get local date/time
+    var localDate = new Date(utc + (3600000 * (utcOffset+1)));
+    //check if one character if so format as two by adding leading 0.
+    var formatDay = (localDate.getDate().length > 1) ? localDate.getDate() : '0' + localDate.getDate();
+    //string everything together
+    var fullDate = formatDay + ' ' + monthNames[localDate.getMonth()] + ' ' + localDate.getFullYear() + ' ' + localDate.toLocaleTimeString();
+
+$('#div1').html(fullDate);
+}
 </script>
 
 </body>
