@@ -11,11 +11,11 @@
 <style>
 .grid-container {
   display: grid;
-  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-columns: 100px 50px 50px 50px 50px 50px 50px 50px;
   background-color: #2196F3;
   padding: 5px;
   margin: auto;
-  width: 400px;
+  width: 450px;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
@@ -52,35 +52,66 @@ input[type=checkbox]
 </ul>
 
 <h1 style="text-align: center;">Character Schedule:</h1>
-<div style="text-align: center;" id="div1">x</div>
+<div style="text-align: center;" id="divTime">x</div>
+<br>
+
+
 
 <form action="/action_page.php">
 <div class="grid-container">
-<div class="grid-item">CST</div><div class="grid-item">SUN</div><div class="grid-item">MON</div><div class="grid-item">TUE</div><div class="grid-item">WED</div><div class="grid-item">THU</div><div class="grid-item">FRI</div><div class="grid-item">SAT</div>
-<div class="grid-item">12AM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday1" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday1" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday1" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday1" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday1" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday1" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday1" value="1"></div> 
-<div class="grid-item">1AM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday2" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday2" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday2" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday2" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday2" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday2" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday2" value="1"></div> 
-<div class="grid-item">2AM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday3" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday3" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday3" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday3" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday3" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday3" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday3" value="1"></div> 
-<div class="grid-item">3AM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday4" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday4" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday4" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday4" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday4" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday4" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday4" value="1"></div> 
-<div class="grid-item">4AM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday5" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday5" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday5" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday5" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday5" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday5" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday5" value="1"></div> 
-<div class="grid-item">5AM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday6" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday6" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday6" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday6" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday6" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday6" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday6" value="1"></div> 
-<div class="grid-item">6AM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday7" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday7" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday7" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday7" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday7" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday7" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday7" value="1"></div> 
-<div class="grid-item">7AM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday8" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday8" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday8" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday8" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday8" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday8" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday8" value="1"></div> 
-<div class="grid-item">8AM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday9" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday9" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday9" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday9" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday9" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday9" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday9" value="1"></div> 
-<div class="grid-item">9AM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday10" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday10" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday10" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday10" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday10" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday10" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday10" value="1"></div> 
-<div class="grid-item">10AM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday11" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday11" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday11" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday11" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday11" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday11" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday11" value="1"></div> 
-<div class="grid-item">11AM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday12" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday12" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday12" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday12" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday12" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday12" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday12" value="1"></div> 
-<div class="grid-item">12PM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday13" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday13" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday13" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday13" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday13" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday13" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday13" value="1"></div> 
-<div class="grid-item">1PM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday14" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday14" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday14" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday14" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday14" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday14" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday14" value="1"></div> 
-<div class="grid-item">2PM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday15" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday15" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday15" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday15" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday15" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday15" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday15" value="1"></div> 
-<div class="grid-item">3PM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday16" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday16" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday16" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday16" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday16" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday16" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday16" value="1"></div> 
-<div class="grid-item">4PM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday17" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday17" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday17" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday17" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday17" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday17" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday17" value="1"></div> 
-<div class="grid-item">5PM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday18" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday18" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday18" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday18" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday18" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday18" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday18" value="1"></div> 
-<div class="grid-item">6PM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday19" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday19" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday19" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday19" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday19" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday19" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday19" value="1"></div> 
-<div class="grid-item">7PM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday20" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday20" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday20" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday20" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday20" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday20" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday20" value="1"></div> 
-<div class="grid-item">8PM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday21" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday21" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday21" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday21" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday21" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday21" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday21" value="1"></div> 
-<div class="grid-item">9PM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday22" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday22" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday22" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday22" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday22" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday22" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday22" value="1"></div> 
-<div class="grid-item">10PM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday23" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday23" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday23" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday23" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday23" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday23" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday23" value="1"></div> 
-<div class="grid-item">11PM</div><div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Sunday24" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Monday24" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Tuesday24" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Wednesday24" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Thursday24" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Friday24" value="1"></div> <div class="grid-item"><input onmouseover='check(this)' type="checkbox" id="Saturday24" value="1"></div> 
+<div class="grid-item"><select id="TimezoneForm">
+<option value="-12">UTC -12</option>
+<option value="-12">UTC -11</option>
+<option value="-11">UTC -10</option>
+<option value="-9">UTC -9</option>
+<option value="-8">UTC -8</option>
+<option value="-7">UTC -7</option>
+<option value="-6" selected="selected">UTC -6</option>
+<option value="-5">UTC -5</option>
+<option value="-4">UTC -4</option>
+<option value="-3">UTC -3</option>
+<option value="-2">UTC -2</option>
+<option value="-1">UTC -1</option>
+<option value="0">UTC </option>
+<option value="1">UTC +1</option>
+<option value="2">UTC +2</option>
+<option value="3">UTC +3</option>
+<option value="4">UTC +4</option>
+<option value="5">UTC +5</option>
+<option value="6">UTC +6</option>
+<option value="7">UTC +7</option>
+<option value="8">UTC +8</option>
+<option value="9">UTC +9</option>
+<option value="10">UTC +10</option>
+<option value="11">UTC +11</option>
+<option value="12">UTC +12</option>
+<option value="13">UTC +13</option>
+<option value="14">UTC +14</option>
+</select></div><div class="grid-item">SUN</div><div class="grid-item">MON</div><div class="grid-item">TUE</div><div class="grid-item">WED</div><div class="grid-item">THU</div><div class="grid-item">FRI</div><div class="grid-item">SAT</div>
+<div class="grid-item">12AM</div><div class="grid-item"><input  type="checkbox" id="Sunday1" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday1" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday1" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday1" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday1" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday1" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday1" value="1"></div> 
+<div class="grid-item">1AM</div><div class="grid-item"><input  type="checkbox" id="Sunday2" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday2" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday2" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday2" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday2" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday2" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday2" value="1"></div> 
+<div class="grid-item">2AM</div><div class="grid-item"><input  type="checkbox" id="Sunday3" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday3" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday3" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday3" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday3" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday3" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday3" value="1"></div> 
+<div class="grid-item">3AM</div><div class="grid-item"><input  type="checkbox" id="Sunday4" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday4" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday4" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday4" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday4" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday4" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday4" value="1"></div> 
+<div class="grid-item">4AM</div><div class="grid-item"><input  type="checkbox" id="Sunday5" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday5" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday5" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday5" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday5" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday5" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday5" value="1"></div> 
+<div class="grid-item">5AM</div><div class="grid-item"><input  type="checkbox" id="Sunday6" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday6" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday6" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday6" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday6" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday6" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday6" value="1"></div> 
+<div class="grid-item">6AM</div><div class="grid-item"><input  type="checkbox" id="Sunday7" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday7" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday7" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday7" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday7" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday7" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday7" value="1"></div> 
+<div class="grid-item">7AM</div><div class="grid-item"><input  type="checkbox" id="Sunday8" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday8" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday8" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday8" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday8" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday8" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday8" value="1"></div> 
+<div class="grid-item">8AM</div><div class="grid-item"><input  type="checkbox" id="Sunday9" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday9" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday9" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday9" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday9" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday9" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday9" value="1"></div> 
+<div class="grid-item">9AM</div><div class="grid-item"><input  type="checkbox" id="Sunday10" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday10" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday10" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday10" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday10" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday10" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday10" value="1"></div> 
+<div class="grid-item">10AM</div><div class="grid-item"><input  type="checkbox" id="Sunday11" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday11" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday11" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday11" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday11" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday11" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday11" value="1"></div> 
+<div class="grid-item">11AM</div><div class="grid-item"><input  type="checkbox" id="Sunday12" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday12" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday12" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday12" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday12" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday12" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday12" value="1"></div> 
+<div class="grid-item">12PM</div><div class="grid-item"><input  type="checkbox" id="Sunday13" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday13" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday13" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday13" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday13" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday13" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday13" value="1"></div> 
+<div class="grid-item">1PM</div><div class="grid-item"><input  type="checkbox" id="Sunday14" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday14" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday14" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday14" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday14" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday14" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday14" value="1"></div> 
+<div class="grid-item">2PM</div><div class="grid-item"><input  type="checkbox" id="Sunday15" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday15" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday15" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday15" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday15" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday15" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday15" value="1"></div> 
+<div class="grid-item">3PM</div><div class="grid-item"><input  type="checkbox" id="Sunday16" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday16" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday16" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday16" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday16" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday16" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday16" value="1"></div> 
+<div class="grid-item">4PM</div><div class="grid-item"><input  type="checkbox" id="Sunday17" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday17" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday17" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday17" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday17" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday17" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday17" value="1"></div> 
+<div class="grid-item">5PM</div><div class="grid-item"><input  type="checkbox" id="Sunday18" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday18" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday18" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday18" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday18" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday18" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday18" value="1"></div> 
+<div class="grid-item">6PM</div><div class="grid-item"><input  type="checkbox" id="Sunday19" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday19" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday19" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday19" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday19" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday19" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday19" value="1"></div> 
+<div class="grid-item">7PM</div><div class="grid-item"><input  type="checkbox" id="Sunday20" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday20" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday20" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday20" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday20" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday20" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday20" value="1"></div> 
+<div class="grid-item">8PM</div><div class="grid-item"><input  type="checkbox" id="Sunday21" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday21" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday21" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday21" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday21" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday21" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday21" value="1"></div> 
+<div class="grid-item">9PM</div><div class="grid-item"><input  type="checkbox" id="Sunday22" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday22" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday22" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday22" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday22" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday22" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday22" value="1"></div> 
+<div class="grid-item">10PM</div><div class="grid-item"><input  type="checkbox" id="Sunday23" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday23" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday23" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday23" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday23" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday23" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday23" value="1"></div> 
+<div class="grid-item">11PM</div><div class="grid-item"><input  type="checkbox" id="Sunday24" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Monday24" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Tuesday24" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Wednesday24" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Thursday24" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Friday24" value="1"></div> <div class="grid-item"><input  type="checkbox" id="Saturday24" value="1"></div> 
 </div>
 <br>
 <div style="text-align: center;">
@@ -95,7 +126,9 @@ document.getElementById("SchedBTN").addEventListener("click",
 function() {
 console.log(1);
 var Days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var Timezone = $("#TimezoneForm").val();
 var Day = 0;
+var Starthour = 1;
 var Hour = 1;
 var DayHour = "";
 var i;
@@ -103,6 +136,70 @@ var x;
 var FinalText = "0x";
 var BinaryText = "";
 var BinaryNumber;
+
+	if (Timezone == "-12") {
+	Day=6;
+	Hour=19;
+	} else if (Timezone== "-11") {
+	Day=6;
+	Hour=20;
+	} else if (Timezone== "-10") {
+	Day=6;
+	Hour=21;	
+	} else if (Timezone== "-9") {
+	Day=6;
+	Hour=22;	
+	} else if (Timezone== "-8") {
+	Day=6;
+	Hour=23;		
+	} else if (Timezone== "-7") {
+	Day=6;
+	Hour=24;		
+	} else if (Timezone== "-6") {
+	Hour=1;
+	} else if (Timezone== "-5") {
+	Hour=2;			
+	} else if (Timezone== "-4") {
+	Hour=3;			
+	} else if (Timezone== "-3") {
+	Hour=4;		
+	} else if (Timezone== "-2") {
+	Hour=5;		
+	} else if (Timezone== "-1") {
+	Hour=6;		
+	} else if (Timezone== "0") {
+	Hour=7;		
+	} else if (Timezone== "1") {
+	Hour=8;	
+	} else if (Timezone== "2") {
+	Hour=9;	
+	} else if (Timezone== "3") {
+	Hour=10;	
+	} else if (Timezone== "4") {
+	Hour=11;	
+	} else if (Timezone== "5") {
+	Hour=12;	
+	} else if (Timezone== "6") {
+	Hour=13;	
+	} else if (Timezone== "7") {
+	Hour=14;	
+	} else if (Timezone== "8") {
+	Hour=15;	
+	} else if (Timezone== "9") {
+	Hour=16;	
+	} else if (Timezone== "10") {
+	Hour=17;	
+	} else if (Timezone== "11") {
+	Hour=18;	
+	} else if (Timezone== "12") {
+	Hour=19;	
+	} else if (Timezone== "13") {
+	Hour=20;	
+	} else if (Timezone== "14") {
+	Hour=21;		
+	} else {
+	}
+
 for (i = 0; i < 168; i++) {
 	DayHour = Days[Day] + Hour.toString();
 	console.log(DayHour);
@@ -112,20 +209,26 @@ for (i = 0; i < 168; i++) {
     } else {
         BinaryText += "0";
     }
-	if (Hour == 8 || Hour == 16) {
+	if (Starthour == 8 || Starthour == 16 || Starthour == 24) {
 	BinaryNumber = parseInt(BinaryText);
 	FinalText += parseInt(BinaryNumber, 2).toString(16);
 	BinaryText = "";
 	};
 	
-	if (Hour == 24 ) {
+	if (Hour == 24 && Day==6) {
+	Day=0;
+	Hour = 1;
+	} else if (Hour == 24){
 	Day++;
 	Hour = 1;
-	BinaryNumber = parseInt(BinaryText);
-	FinalText += parseInt(BinaryNumber, 2).toString(16);
-	BinaryText = "";
 	} else {
 	Hour++;
+	}
+	
+	if (Starthour == 24) {
+	Starthour = 1;
+	} else {
+	Starthour++;
 	}
 	
 }
@@ -146,26 +249,26 @@ var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
     //check if one character if so format as two by adding leading 0.
     var formatDay = (localDate.getDate().length > 1) ? localDate.getDate() : '0' + localDate.getDate();
     //string everything together
-    var fullDate = formatDay + ' ' + monthNames[localDate.getMonth()] + ' ' + localDate.getFullYear() + ' ' + localDate.toLocaleTimeString();
+    var fullDate = 'Current CST/UTC-6 Time ' + formatDay + ' ' + monthNames[localDate.getMonth()] + ' ' + localDate.getFullYear() + ' ' + localDate.toLocaleTimeString();
 
-$('#div1').html(fullDate);
+$('#divTime').html(fullDate);
 }
 
-function check(box)
-  {
-    if(mouseDown)
-      {
-        box.checked = 1-box.checked;
-		// box.checked = 1;
+//function check(box)
+  //{
+    //if(mouseDown)
+      //{
+        //box.checked = 1-box.checked;
+		//box.checked = 1;
         // ^ If you only want to turn them on, use this.
-      }
-  }
+      //}
+  //}
   
-  var mouseDown = 0;
-  document.body.onmousedown = function()
-  {++mouseDown;}
-  document.body.onmouseup = function()
-  {--mouseDown;}
+  //var mouseDown = 0;
+  ////document.body.onmousedown = function()
+  //{++mouseDown;}
+  //document.body.onmouseup = function()
+  //{--mouseDown;}
   // Credit to http://stackoverflow.com/questions/322378/javascript-check-if-mouse-button-down
 
 </script>
